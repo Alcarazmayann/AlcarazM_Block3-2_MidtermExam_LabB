@@ -7,9 +7,9 @@ var note = {}
 
 if (cmd[2]){
     note ={
-    employee: cmd[2],
-    role: cmd[3],
-    department: cmd[4]
+    Employee: cmd[2],
+    Role: cmd[3],
+    Department: cmd[4]
 }
 
 var oldnote = read()
